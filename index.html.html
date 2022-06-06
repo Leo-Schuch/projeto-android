@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
-    <style> 
-    
+    <style>
         @font-face {
             font-family: 'android';
             src: url('idroid.otf') format('opentype'), url(idroid.otf) format('truetype');
@@ -43,7 +42,7 @@
 
         article {
             box-shadow: 0 0 40px black;
-            
+
             margin: auto;
             max-width: 900px;
             min-width: 300px;
@@ -95,14 +94,35 @@
 
             display: block;
             margin: 0px auto;
+
         }
 
 
-        .video {
+        div.video {
 
-            text-align: center;
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+            margin: 0 auto;
             background-color: #336E4E;
-            box-sizing: border-box
+
+
+
+        }
+
+        div.video>iframe {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            right: 20px;
+            bottom: 20px;
+
+            width: 90%;
+            height: 90%;
+         
+
+
         }
 
         menu {
