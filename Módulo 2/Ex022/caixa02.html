@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+
+        }
+        h1 {text-align: center;
+            box-shadow: -3px 1px 20px 1px black;
+        }
+       
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 315);
+        }
+        nav > a
+        {
+          background-color: rgb(206, 201, 196);  
+          padding: 3px;
+          font-weight: bold;
+          margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 384);
+            /*10px- direita e em cima, 10px embaixo e esquerda*/
+         
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+      article > aside {
+          background-color: rgb(90, 88, 88);
+      }
+        footer {
+            background-color: black;
+            color: rgb(110, 104, 104);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 500px;
+            width: 500px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+    <a href="">link</a>
+</nav>
+    </header>
+    <main>
+<section id="assuntos">
+<p>E-sports, politicas e tecnologia</p>
+</section>
+<section id="noticias">
+    <article>
+        <h2>Notícias do brasil</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum molestiae, quasi possimus nisi suscipit omnis consequatur, maxime atque corrupti ab rem mollitia accusamus quam aspernatur? Fugiat iusto quibusdam nobis? Magni.</p>
+       
+        <aside>
+            <p>Artigo escrito por Schuch</p>
+        </aside>
+    </article>
+</section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Schuch</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+
+
+
+</body>
+</html>
